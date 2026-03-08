@@ -31,3 +31,21 @@ git branch
 git branch feature/updating-codes
 
 #9 switching to new branch is called doing a checkout
+git checkout feature/updating-codes
+
+#10 after adding codes in local repo
+git add .
+git commit -m "new branch created"
+git push -u origin feature/updating-codes
+
+#11 Directly creating and checking out to a new branch
+git checkout -b feature/updating-codes-1
+
+#12 Doing git pull to pull latest changes from repo
+git pull
+
+#13 Stashing changes
+git stash
+
+#14 Popping stashed changes
+git stash pop
