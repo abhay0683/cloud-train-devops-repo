@@ -61,3 +61,7 @@ git status
 
 #17 git log will show the history of commits
 git log
+
+#18 deleting a brnach from local and pushing it to remote
+git branch -d feature/to-be-deleted
+git push origin --delete feature/to-be-deleted
