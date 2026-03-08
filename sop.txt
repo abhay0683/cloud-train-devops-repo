@@ -40,3 +40,18 @@ git push -u origin feature/updating-codes
 
 #11 Directly creating and checking out to a new branch
 git checkout -b feature/updating-codes-1
+
+#12 Doing git pull to pull latest changes from repo
+git pull
+
+#12.a Doing git pull to pull latest changes from another branch
+git pull origin main
+
+#13 Stashing changes
+git stash
+
+#14 Popping stashed changes
+git stash pop
+
+#15 merging of branches
+git merge feature/updating-codes
