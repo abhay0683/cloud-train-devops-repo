@@ -19,3 +19,15 @@ git commit -m "first commit"
 
 #6 Pushing to public repo
 git push -u origin main
+
+#7 Setting up user name and email for git
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+
+#7 View  Git branch
+git branch
+
+# create a new branch 
+git branch feature/updating-codes
+
+#9 switching to new branch is called doing a checkout
