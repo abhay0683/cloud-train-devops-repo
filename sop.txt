@@ -11,6 +11,11 @@ git remote add origin https://github.com/abhay0683/cloud-train-devops-repo.git
 git add ab_text_file_test.txt
 git add ab_text_file_test_2.txt
 
+#4a Adding all files in staging area
 git add .
 
+#5 commintting changes to local repo
+git commit -m "first commit"
+
+#6 Pushing to public repo
 git push -u origin main
