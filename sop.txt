@@ -1,0 +1,16 @@
+#1 Init of git repo in folder - 1st time task
+git init
+
+#2cAdding default branch as main - 1st time task
+git branch -M main
+
+#3cadding public url for project - 1st time task
+git remote add origin https://github.com/abhay0683/cloud-train-devops-repo.git
+
+#4 Adding files in staging area
+git add ab_text_file_test.txt
+git add ab_text_file_test_2.txt
+
+git add .
+
+git push -u origin main
