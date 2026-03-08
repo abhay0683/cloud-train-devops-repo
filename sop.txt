@@ -55,3 +55,9 @@ git stash pop
 
 #15 merging of branches
 git merge feature/updating-codes
+
+#16 git status will show the changes
+git status
+
+#17 git log will show the history of commits
+git log
