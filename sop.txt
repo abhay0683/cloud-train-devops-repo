@@ -49,3 +49,6 @@ git stash
 
 #14 Popping stashed changes
 git stash pop
+
+#Merging of Branches
+git merge feature/updating-codes
